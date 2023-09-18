@@ -1,8 +1,10 @@
+import Filter from "./components/filter/Filter"
+
 function App() {
 
   return (
     <>
-        
+        <Filter />
     </>
   )
 }
