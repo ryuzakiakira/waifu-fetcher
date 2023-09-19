@@ -2,4 +2,12 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

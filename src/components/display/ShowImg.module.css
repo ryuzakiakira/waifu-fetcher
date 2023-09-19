@@ -1,0 +1,8 @@
+.display {
+  max-width: 400px;
+  padding: 10px;
+  border: solid black;
+  margin: 5px;
+  margin-top: 50px;
+  border-radius: 10px;
+}

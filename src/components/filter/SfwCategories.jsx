@@ -1,6 +1,11 @@
-function SfwCategories() {
+/* eslint-disable react/prop-types */
+function SfwCategories(props) {
+  const onChangeHandler = (e) => {
+    props.onChange(e);
+  };
+
   return (
-    <select>
+    <select onChange={onChangeHandler}>
       <option value="waifu">waifu</option>
       <option value="neko">neko</option>
       <option value="shinobu">shinobu</option>
